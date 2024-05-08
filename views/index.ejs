@@ -318,19 +318,19 @@ body {
                 <p id="tasksInfo" class="fw-bold"></p>
               </div>
               <div class="input-group mb-3">
-                <input
-                  id="taskInput"
-                  type="text"
-                  class="form-control"
-                  placeholder="Add your task ..."
-                  aria-label="Add your task"
-                  aria-describedby="button-addon2"
-                />
-                <button
-                  class="btn btn-outline-secondary"
-                  type="button"
-                  id="addTaskBtn"
-                >
+                <form action="/"  method="POST" >  <input
+                    id="taskInput"
+                    type="text"
+                    name="text"
+                    class="form-control"
+                    placeholder="Add your task ..."
+                    aria-label="Add your task"
+                    aria-describedby="button-addon2"
+                  />
+                  <input type='submit' value='submit' />
+                </form>
+              
+              
                   <i class="fa-solid fa-pencil"></i>
                 </button>
               </div>
